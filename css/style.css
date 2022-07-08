@@ -1,0 +1,251 @@
+/*Universal Styling*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../Images/TduYC2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+dt {
+    font-family: sans-serif;
+}
+
+/*Pseudo Classes for Anchor Tags*/
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: skyblue
+}
+
+/*Homepage Styling*/
+
+.home-ul{
+    text-align: center;
+    border: solid 1px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px;
+    background-color: aliceblue;
+}
+
+.home-li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/*About Page Styling*/
+
+.about-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#about-main {
+    text-align: center;
+}
+
+.about-hr {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid skyblue;
+}
+
+.about-p {
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.about-img {
+    border-radius: 50px;
+    opacity: 0.5;
+    height: auto;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+
+.about-img:hover {
+    opacity: 1;
+}
+
+/*Favorite Foods Page Styling*/
+
+.food-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.food-section {
+    width: 300px;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.food-li {
+    margin-top: 5px;
+}
+
+/*Movies Page Styling*/
+
+.movies-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.movies-homepage {
+    margin-top: 20px;
+}
+
+.movies-hr {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: 1px solid skyblue;
+}
+
+.movies-container-top {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.movie-top-row {
+    width: 20%;
+    text-align: center;
+}
+
+.movie-header {
+    margin-bottom: 15px;
+}
+
+.movie-img {
+    margin-bottom: 15px;
+    opacity: 0.5;
+}
+
+.movie-img:hover {
+    opacity: 1;
+}
+
+.movies-container-bottom {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.movie-bottom-row {
+    width: 20%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/*Todo List Page Styling*/
+
+.todo-list-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.todo-list-section {
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.todo-li {
+    margin-top: 5px;
+}
+
+/*Travel Page Styling*/
+
+.travel-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main-travel-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.travel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.travel-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.travel-h2 {
+    text-align: center;
+}
+
+.travel-img {
+    width: 600px;
+    height: 300px;
+    margin: 10px 0px 10px 0px;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+.travel-img:hover {
+    opacity: 1;
+}
